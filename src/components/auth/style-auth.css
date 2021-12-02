@@ -1,0 +1,15 @@
+.auth {
+  /* background-color: #e5ff00; */
+  /* border: 2px solid rgba(192, 53, 53, 0.966); */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 500px;
+}
+
+.form {
+  /* background-color :#1ff; */
+  /* border: 2px dotted black; */
+}
