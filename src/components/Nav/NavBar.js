@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <nav className="navigation">
       <ul className="container">
-        <h1>Welcome to Retailo</h1>
+        <h1>Welcome to MyRetailo</h1>
         <h4>Admin Portal</h4>
         <li>
           <Link to="/">Sign In</Link>
