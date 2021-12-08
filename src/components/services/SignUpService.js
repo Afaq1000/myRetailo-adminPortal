@@ -1,5 +1,6 @@
 import { instance } from "./index";
 
+
  function SignUpService(data) {
      console.log({...data});
 
