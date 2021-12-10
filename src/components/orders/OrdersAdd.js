@@ -23,6 +23,7 @@ export const OrdersAdd = () => {
     };
 
     const response = OrdersAddService(dataa);
+    // console.log(dataa);
     // console.log(response);
     setDeliveryDate("");
     setPlacedAt("");
