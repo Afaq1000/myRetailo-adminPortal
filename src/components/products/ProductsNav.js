@@ -38,8 +38,8 @@ export const ProductsNav = () => {
     return (
       <>
         <nav className="navigation">
-          <ul className="container">
-            <li>
+          {/* <ul className="container"> */}
+            {/* <li>
               <Link to="/product">Product</Link>
             </li>
             <li>
@@ -47,8 +47,8 @@ export const ProductsNav = () => {
             </li>
             <li>
               <Link to="/productDelete">Delete Product</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li> */}
               <Box textAlign="center">
                 <Button
                   type="button"
@@ -60,8 +60,8 @@ export const ProductsNav = () => {
                   Sign Out
                 </Button>
               </Box>
-            </li>
-          </ul>
+            {/* </li> */}
+          {/* </ul> */}
         </nav>
       </>
     );

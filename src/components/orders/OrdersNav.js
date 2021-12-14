@@ -40,7 +40,7 @@ export const OrdersNav = () => {
     return (
 
         <nav className="navigation">
-        <ul className="container">
+        {/* <ul className="container">
         <li>
             <Link to="/order">Order</Link>
           </li>
@@ -50,7 +50,7 @@ export const OrdersNav = () => {
           <li>
             <Link to="/orderDelete">Delete Order</Link>
           </li>
-          <li>
+          <li> */}
           <Box textAlign="center">
           <Button
             type="button"
@@ -62,8 +62,8 @@ export const OrdersNav = () => {
             Sign Out
           </Button>
         </Box>
-          </li>
-        </ul>
+          {/* </li>
+        </ul> */}
       </nav>
     )
 }

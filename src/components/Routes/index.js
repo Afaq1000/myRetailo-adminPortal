@@ -11,12 +11,13 @@ import { SignIn } from "../auth/SignIn";
 import { SignUp } from "../auth/SignUp";
 import { ProductsNav } from "../products/ProductsNav";
 import {ProductDelete} from "../products/ProductDelete";
-import NavBar from "../Nav/NavBar";
+// import NavBar from "../Nav/NavBar";
+import Navbar from "../navbar/Navbar";
 
 const ReactRouterSetup = () => {
   return (
     <BrowserRouter>
-      <NavBar />
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<SignIn />} />
 
