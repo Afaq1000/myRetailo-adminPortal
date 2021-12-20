@@ -4,6 +4,8 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    color: #fff;
+    
   }
   
   .menu-bars {
@@ -11,7 +13,14 @@
     font-size: 2rem;
     background: none;
   }
-  
+  .navbar h1{
+    /* border: 2px solid #fff; */
+    /* background-color: #000; */
+    margin-left: 30px;
+    /* text-align: center; */
+    
+    
+  }
   .nav-menu {
     background-color: #060b26;
     width: 250px;

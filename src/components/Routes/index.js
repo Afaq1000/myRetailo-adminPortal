@@ -5,11 +5,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Error from "./Error";
 import { ProductsAdd } from "../products/ProductsAdd";
 import { OrdersAdd } from "../orders/OrdersAdd";
-import {OrdersNav } from "../orders/OrdersNav";
+// import {OrdersNav } from "../orders/OrdersNav";
 import {OrderDelete} from "../orders/OrderDelete";
 import { SignIn } from "../auth/SignIn";
 import { SignUp } from "../auth/SignUp";
-import { ProductsNav } from "../products/ProductsNav";
+// import { ProductsNav } from "../products/ProductsNav";
 import {ProductDelete} from "../products/ProductDelete";
 // import NavBar from "../Nav/NavBar";
 import Navbar from "../navbar/Navbar";
@@ -23,11 +23,11 @@ const ReactRouterSetup = () => {
 
         <Route path="/signup" element={<SignUp />} />
         <Route path="/productDelete" element={<ProductDelete />} />
-        <Route path="/product" element={<ProductsNav />} />
+        {/* <Route path="/product" element={<ProductsNav />} /> */}
         <Route path="/productAdd" element={<ProductsAdd />} />
         <Route path="/orderAdd" element={<OrdersAdd />} />
         <Route path="/orderDelete" element={<OrderDelete />} />
-        <Route path="/order" element={<OrdersNav />} />
+        {/* <Route path="/order" element={<OrdersNav />} /> */}
         
 
         {/* <Route  path='/about'
